@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piotr/studia/semestr_II/cpp/zajecia/zadania/zadanie3_15/employee.h
+iostream
+-
+
+/home/piotr/studia/semestr_II/cpp/zajecia/zadania/zadanie3_15/main.cpp
+iostream
+-
+employee.h
+/home/piotr/studia/semestr_II/cpp/zajecia/zadania/zadanie3_15/employee.h
+

@@ -1,0 +1,3 @@
+/home/piotr/studia/semestr_II/cpp/zajecia/zadania/zadanie3_15/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/piotr/studia/semestr_II/cpp/zajecia/zadania/zadanie3_15/cmake-build-debug/CMakeFiles/zadanie3_15.dir
+/home/piotr/studia/semestr_II/cpp/zajecia/zadania/zadanie3_15/cmake-build-debug/CMakeFiles/edit_cache.dir
