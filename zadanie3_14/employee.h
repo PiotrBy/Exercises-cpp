@@ -14,6 +14,7 @@ private:
     string firstName;
     string lastName;
     int monthlySalary;
+    
 
 public:
     employee(string = "Stefan", string = "Batory", int = 2 );
