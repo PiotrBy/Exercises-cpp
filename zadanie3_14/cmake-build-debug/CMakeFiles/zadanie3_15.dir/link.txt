@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/zadanie3_15.dir/main.cpp.o CMakeFiles/zadanie3_15.dir/employee.cpp.o  -o zadanie3_15 
