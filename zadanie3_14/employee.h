@@ -14,15 +14,17 @@ private:
     string firstName;
     string lastName;
     int monthlySalary;
-    
+
 
 public:
     employee(string = "Stefan", string = "Batory", int = 2 );
 
     string getFirstName();
     void setFirstName(string firstName);
+
     string getLastName();
     void setLastName(string lastName);
+
     int getMonthlySalary();
     void setMonthlySalary(int monthlySalary);
 
