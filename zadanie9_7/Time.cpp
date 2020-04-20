@@ -91,8 +91,5 @@ void Time::printStandard() const {
         sleep(1);
     }
 
-    cout << ((getHour() == 0 || getHour() == 12) ? 12 : getHour() % 12)
-         << ":" << setfill('0') << setw(2) << getMinute()
-         << ":" << setw(2) << getSecond() << (hour < 12 ? " AM" : " PM");
 } // end function printStandard
 
