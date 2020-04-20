@@ -1,6 +1,5 @@
-#include <iostream>
 #include <unistd.h>
-#include "Date.h" // include definition of class Date from Date.h
+#include "Date.h"
 
 using namespace std;
 

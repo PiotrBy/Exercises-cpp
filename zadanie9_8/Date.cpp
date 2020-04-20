@@ -3,11 +3,10 @@
 //
 
 #include <iostream>
-#include "Date.h" // include definition of class Date from Date.h
+#include "Date.h"
 
 using namespace std;
 
-// Date constructor (should do range checking)
 Date::Date(unsigned int month, unsigned int day, unsigned int year) {
     setDate(month, day, year);
 }
