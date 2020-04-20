@@ -1,11 +1,14 @@
 #include "Time.h"
+#include <unistd.h>
 
 using namespace std;
 
 int main() {
-
-    Time t1(15,34,23);  // <--- Podać ilosc godzin minut i sekund (domyslnie 0,0,0)
-    t1.printStandard();
-
+    Time t1; // Podac ilosc godzin minut i sekund
+    while(true){
+        t1.printStandard();
+        t1.tick();
+        sleep(1);
+    }
     return 0;
 }
