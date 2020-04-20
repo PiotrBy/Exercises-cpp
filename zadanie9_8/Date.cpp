@@ -1,7 +1,3 @@
-//
-// Created by piotr on 19.04.2020.
-//
-
 #include <iostream>
 #include "Date.h"
 
@@ -28,7 +24,6 @@ unsigned int Date::getDay() {
 unsigned int Date::getYear() {
     return year;
 }
-
 
 void Date::print() {
     cout << day << '/' << month << '/' << year << endl;
@@ -80,7 +75,7 @@ bool Date::isEndOfMonth() {
     } else if (getMonth() == 4 || getMonth() == 6 || getMonth() == 9 || getMonth() == 11) {
         return getDay() == 30;
     } else {
-        if ((getYear() % 4 == 0 && getYear() % 100 != 0 )|| getYear() % 400 == 0) {
+        if ((getYear() % 4 == 0 && getYear() % 100 != 0) || getYear() % 400 == 0) {
             return getDay() == 29;
         } else {
             return getDay() == 28;
@@ -92,5 +87,17 @@ bool Date::isEndOfYear() {
     return getMonth() == 12 && isEndOfMonth();
 }
 
-
-
+void Date::nextDay() {
+    if (isEndOfMonth()) {
+        if (isEndOfYear()) {
+            year++;
+            month = 1;
+            day = 1;
+        } else {
+            month++;
+            day = 1;
+        }
+    } else {
+        day++;
+    }
+}
